@@ -1,0 +1,28 @@
+*{margin:0;padding:0;}
+
+
+.float_left{float : left;}
+.float_right{float : right;}
+
+.bac_color{background : skyblue;}
+
+.wraper{width : 1200px; margin : 0 auto;}
+
+
+
+
+.container{}
+
+
+
+/*==========Header===========*/
+
+.header_top{height : 50px; line-height : 50px; border-bottom : 1px solid #ccc; font-size : 12px;}
+.header_top div div div{padding : 0 10px;}
+
+.header_search{height : 120px; line-height : 120px;}
+.header_search .banner{line-height : 120px;}
+.header_search .banner img{vertical-align: middle;}
+
+.header_cart{}
+.header_cart p{height : 60px;}
