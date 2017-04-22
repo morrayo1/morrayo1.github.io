@@ -10,7 +10,12 @@
         
         <title>Portfolio-clickboom</title>
         
-        <link rel="stylesheet" href="css/normalize.css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/normalize.css" /><!--초기화-->
+        
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        
         <link rel="stylesheet" href="css/clickboom.css" />
         
         <script src="js/jquery-3.1.1.min.js"></script>
@@ -24,39 +29,51 @@
                     <div class="wraper">
                         <div class="float_left">
                             <div class="call float_left">
-                                <span></span>
-                                Call Us
+                                <span class="fa fa-phone color_blue"></span>
+                                Call Us:
                                 <span>1-234-567-8901</span>
                             </div>
-                            <div class="mail float_left">
-                                <span></span>
+                            <div class="mail float_left ">
+                                <span class="fa fa-envelope color_blue"></span>
                                 Email:
                                 <a href="#">aaaaaaaa@aaaaa.com</a>
                             </div>
                         </div>
                         <div class="float_right">
                             <div class="account">
-                                <a href="#">My Account</a>
+                                <a href="#">
+                                    <span class="fa fa-user color_blue"></span>
+                                    My Account
+                                    <span class="fa fa-angle-down"></span>
+                                </a>
                                 <ul>
                                     <li>Register</li>
                                     <li>Login</li>
                                 </ul>
                             </div>
                             <div class="wish">
-                                <a href="#">Wish List</a>
+                                <a href="#">
+                                    <span class="fa fa-heart color_blue"></span>Wish List (0)</a>
                             </div>
                             <div class="money">
-                                <a href="#">Euro</a>
+                                <a href="#">
+                                    <span class="fa fa-euro"></span>
+                                    Euro
+                                    <span class="fa fa-angle-down"></span>
+                                </a>
                                 <ul>
-                                    <li>Euro</li>
-                                    <li>USD</li>
+                                    <li><span class="fa fa-euro">Euro</li>
+                                    <li><span class="fa fa-usd">USD</li>
                                 </ul>
                             </div>
                             <div class="language">
-                                <a href="#">money</a>
+                                <a href="#">
+                                    <img src="images/en-gb.png"/>English
+                                    <span class="fa fa-angle-down"></span>
+                                </a>
                                 <ul>
-                                    <li>English</li>
-                                    <li>Arabic</li>
+                                    <li><img src="images/en-gb.png"/>English</li>
+                                    <li><img src="images/ar.png"/>Arabic</li>
                                 </ul>
                             </div>
                         </div>
@@ -66,16 +83,22 @@
                     <div class="banner">
                         <img src="images/logo-blue.png"/>
                     </div>
-                    <div class="search color1" ></div>
-                    <div class="cart color2"></div>
+                    <div class="search"></div>
+                    <div class="cart">
+                        <span class="fa fa-shopping-cart"></span>
+                        <div class="cart_text">
+                            <div class="text_top">SHOWPING CART</div>
+                            <div class="text_bottom">0.00<span class="fa fa-euro"></span></div>
+                        </div>
+                    </div>
                 </div>                    
-                <div class="header_foot"></div>
+                <div class="header_foot">
+                    <div class="wraper">
+                        <div class="category float_left"></div>
+                        <div class="category float_right"></div>
+                    </div>
+                </div>
             </header>
-        
-        
-        
-        http://opencart.opencartworks.com/themes/so_clickboom/layout4/
-        
         </div>
     </body>
 </html>
