@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <meta charset="utf-8" />
+        <meta name="generator" content="brackets"/>
+        <meta name="author" content="cyanosj128"/> 
+        <meta name="keywords" content="키워드"/> 
+        <meta name="description" content="설명"/>
+        <title>
+           으으아아아아ㅏ아아ㅏ아아
+        </title>
+    </head>
+
+    <body> 
+        <!-- h1~h6 크기가 다른 이유 :  css가 기본적으로 적용되어 있음-->
+        <h1>aaaaaa</h1><!-- 문서상에 하나만 존재하는걸 권장.검색-->
+        <h2>aaaaaa</h2>
+        <h3>aaaaaa</h3>
+        <h4>aaaaaa</h4>
+        <h5>aaaaaa</h5>
+        <h6>aaaaaa</h6>
+        
+        <!--문단표현태그-->
+        <p></p> <!--div 태그가 못들어간다  (p<div) -->
+        
+        
+        <!--리스트 만드는 태그-->
+        <!--순서가 없는 리스트 :ul -->
+        <ul>aaaa
+            <li>aaaa</li>
+            <li>aaaa</li>
+            <li>aaaa</li>
+        </ul>
+        <!--순서가 있는 리스트 :ol -->
+        <ol>aa
+            <li>a</li>
+            <li>b</li>
+            <li>c</li>
+        </ol>aa
+        
+        
+        <!--사전적인 의미를 담은 태그-->
+        <dl>
+            <dt>사과는</dt>
+            <dd>Apple</dd>
+        </dl>    
+        
+        <!--링크를 걸어주는 태그-->
+        <a href="http://naver.com" target="_blank">amsdlkasdm</a>
+        
+        
+        <!--상대경로와 절대경로-->
+        <a href="1_2.html">후루루루루루루루루룩</a>
+        <a href="D:\yang\1\1_2.html">후루루룹</a>
+        
+        <!--이미지를 넣을 수 있는 태그-->
+        
+        <img src="images\a.jpg" alt="art=이미지에 대한 간략한 설명" title="이름"/>
+       
+        <!--팁
+        png : 거의 압축 안함 (품질이 높음, 용량이 큼)
+        jpg : 압축률이 우수하다 (품질은 중간, 용량이 작음)
+        svg : 백터 이미지를 사용할 수 있다 (크기 조절 가능)
+        gif : 애니메이션 만들때 많이 쓴다.
+        -->
+        
+        <!--테이블을 표현하는 태그-->
+        <table border="3">
+            <thead>
+                <tr>
+                    <th colspan="2" width="300">대상</th>
+                    <th width="100">크기</th>
+                    <th width="100">가격</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1번방</td>
+                    <td>여성도미트리</td>
+                    <td rowspan="3">4인실</td>
+                    <td rowspan="4">1인 20,000원</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">2번방</td>
+                    <td>동성도미트리</td>
+                </tr>
+                <tr>
+                    <td>가족방</td>
+                </tr>
+                <tr>
+                    <td>3번방</td>
+                    <td>기본방</td>
+                    <td>2인실</td>
+                </tr>
+                
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th colspan="4">단체 예약은 미리 연락 주세요</th>
+                </tr>
+            </tfoot>
+        </table>
+        
+        <!--태그(element, node)가 가지고 있는 속성
+            고유속성
+            공통속성
+            (attribute)
+        -->
+        
+        <!--Class속성 Id속성
+            
+            class:태그에 이름+의미를 부여해줌
+                  중복이 되어도 상관없음
+                  표기방법(낙타표기법>fruitRedBox, 스네이크표기법>fruit_red_box)
+                  숫자부터 쓸수없음
+
+            id   :고유하다(전체 프로젝트)
+                  기능 구현이 필요한 부분
+                  숫자부터 쓸수없음
+            -->
+        
+      
+        
+        <!--css를 활용한 class와 id의 이해-->
+        
+        <!--
+            html(구조)
+            css(표현)
+            javascript(기능)
+            
+        -->
+        
+        <!--css 인라인방식-->
+        <div style="color:blue; " >
+            안녕하세요
+        </div>
+        
+        <!--css를 쓸 수 있는 독립적인 공간:style-->
+        <style>
+            p{color:coral;}
+            p.font_color{color:green;}
+            p#fontcolor{color:darkorchid;}
+        </style>
+        
+        <!--id는 class의 상위개념-->
+        <div>
+            <p>누구세요</p>
+            <p class="font_color">누구세요</p>
+            <p class="font_color" id="fontcolor">누구세요</p>
+            <p>누구세요</p>
+        </div>
+        
+        
+        
+    </body>
+</html>

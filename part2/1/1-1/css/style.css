@@ -1,0 +1,32 @@
+/*Common*/
+.clearfix::after{content:''; display:block; clear:both;}
+.wrapper{margin: 0 auto; width:1080px;}
+body{background : #333;}
+h2{padding : 20px;font-size : 40px;}
+
+
+
+
+.box{
+    height : 200px;
+    /*background : #ccc;*/
+    background : linear-gradient(150deg, blue ,cyan);
+    -wedkit-background : linear-gradient(150deg, blue ,cyan);
+    -ms-background : linear-gradient(150deg, blue ,cyan);
+    -moz-background : linear-gradient(150deg, blue ,cyan);
+    -o--background : linear-gradient(150deg, blue ,cyan);
+}
+
+.dev{
+    height : 300px;
+    width : 300px;
+    background : #ccc;
+    color : #fff;
+}
+
+.dev:hover{
+    background : linear-gradient(to top, blue ,cyan);
+    color : red;
+}
+
+.dev.font{color : #000;}

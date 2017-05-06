@@ -1,0 +1,51 @@
+/* 네비게이션을 만드는 방법 */
+
+.menu
+{
+    width:960px;
+    height: 40px;
+    margin: 0 auto;
+    background-color: whitesmoke;
+}
+
+.menu ul
+{
+    margin: 0; padding: 0; margin: 0 auto; width: 400px;
+}
+
+.menu li
+{
+    width: 100px;
+    height: 40px;
+    background-color: coral;
+    float: left;
+    list-style-type: none;
+    text-align: center;
+    line-height: 40px;
+}
+
+.menu2
+{
+    width:960px;
+    height: 40px;
+    margin: 0 auto;
+    background-color: whitesmoke;
+}
+
+.menu2 ul
+{
+    margin: 0; padding: 0; text-align: center;
+}
+
+.menu2 li /* list-item( block과 기능이 똑같다 ) */
+{
+    width: 100px;
+    height: 40px;
+    background-color: coral;
+    
+    list-style-type: none;
+    text-align: center;
+    line-height: 40px;
+    
+    display: inline-block;
+}

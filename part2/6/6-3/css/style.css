@@ -1,0 +1,78 @@
+li{list-style : none;}
+img{vertical-align : top;}
+
+body,html{height : 100%;}
+
+img{display: block;}
+
+header{
+    background : url(../images/edition.jpg);
+    background-size : cover;
+    background-attachment : fixed;
+    height : 100%;
+}
+
+#product{
+    height : 800px;
+    
+}
+
+article{
+    width : 80%;
+    margin : 0 auto;
+    overflow : hidden;
+}
+
+h2{
+    text-align: center;
+    font-size : 36px;
+    padding : 0 50px;
+    margin-top : 30px;
+}
+
+.select img{
+    margin : 0 auto;
+}
+
+.time{
+    padding : 0 50px;
+
+}
+
+ul{
+    padding : 0 50px;
+}
+
+ul li{
+    width : 25%;
+    float : left;
+    
+}
+
+ul li img{
+    width : 75%;
+}
+
+ul li p{
+    font-size : 12px;
+    line-height : 20px;
+    width : 60%;
+    margin : 0 auto;
+}
+
+.buy{
+    background-color : darkblue;
+    color : #fff;
+    width : 120px;
+    height : 40px;
+    line-height : 40px;
+    text-align : center;
+    margin : 0 auto;
+    border-radius : 8px;
+    transform: translateY(-120px);
+    opacity : 0;
+}
+
+.item p{
+    text-align : center;
+}

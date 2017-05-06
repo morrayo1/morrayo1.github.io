@@ -1,0 +1,122 @@
+/*우선순위*/
+
+.backgnd{
+    background-color : dimgrey ;
+}
+
+h1{
+    font-size : 50px !important;
+    text-align: center;
+    color: aliceblue;
+}
+
+h1.corn{
+    font-size : 25px;
+}
+
+h1#hahaha{
+    font-size : 10px;
+}
+
+
+
+/*규칙*/
+/*
+
+p{
+    color : white;
+}
+
+p.child{
+    color : darkorange;
+}
+
+div p.child{
+    color : deeppink;
+}
+
+div.parent p.child{
+    color : forestgreen !important;
+}
+
+div.parent p.child{
+    color :cornflowerblue; color : blueviolet;
+}
+
+*/
+
+/*다양한 선택 방법*/
+body{
+    font-size : 40px;
+    text-align: center;
+}
+
+/*
+.bot{
+    color : white;
+}
+
+.hoho_3{
+    color : white;
+}
+*/
+
+/*특이한 선택자*/
+/*
+
+.middle div:nth-child(5){           순서를 따지는 선택자 nth-child(n)
+    color :cornflowerblue;
+}
+
+.middle .bot:first-child{
+    color : red;
+}
+
+.middle .bot:last-child{
+    color : darkorchid;
+}
+
+.middle div:nth-child(even){
+    color : white;
+}
+
+.middle div:nth-child(odd){ 
+    color : red;
+}
+
+.middle .bot:not(.hoho_3){
+    color : white;
+}
+
+.middle .bot:not(:nth-child(5)){
+    color :chartreuse;
+}
+
+.middle .hoho_3 + div{           바로 아래 태그
+    color : dodgerblue;
+}
+
+.middle .hoho_3 ~ div{           아래 전부 태그
+    color : cyan;
+}*/
+
+
+/*부모태그의 스타일을 물려받음(상속되지 않는 스타일도 있음)*/
+
+.box{
+    color : red;
+    font-size : 20px;
+}
+
+.xob{
+    color : blue;
+    font-size :inherit;
+}
+
+.xob_2{
+    color : cornflowerblue;
+}
+
+.oxb{
+    
+}

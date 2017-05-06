@@ -1,0 +1,31 @@
+*{margin : 0;padding:0;}
+.container{margin : 0;padding:0; width : 100%; border-top:3px solid #444;}
+.wraper{margin : 0 auto; padding : 20px; width : 1200px;}
+
+header{display:inline-block;}
+
+
+.action_top{margin:20px;}
+
+.action_top .btn_main{color:#fff; width :40px; height : 40px; border-radius:5px;line-height : 40px; text-align : center; background-color :royalblue;cursor: pointer;}
+
+
+
+
+
+
+.menu{float:left; width : 295px; background:#fff;margin-right :5px;margin-top:20px;}
+
+.menu .menu_main{ height:45px; line-height : 45px; padding-left : 10px;border-bottom:2px solid #555;}
+
+.menu .menu_sub{padding:5px 10px 5px 20px;margin :10px;height:45px; line-height : 45px;border-left:4px solid #48b1e4;position : relative;}
+
+.menu .menu_sub .close_sub{position : absolute;top:10px;right : 20px;font-size:5px; height : 10px;line-height : 10px; cursor: pointer;}
+.menu .menu_sub .move_right{position : absolute;top:20px;right : 20px;font-size:5px; height : 10px;line-height : 10px; cursor: pointer;}
+.menu .menu_sub .move_left{position : absolute;top:30px;right : 20px;font-size:5px; height : 10px;line-height : 10px; cursor: pointer;}
+
+
+
+.menu .btn_sub{color :#fff; height:45px;width:135px;font-size:16px; margin-top:15px;margin-left:10px;border-radius:10px;line-height : 45px; text-align:center;background-color:#9bca71;cursor: pointer;}
+
+

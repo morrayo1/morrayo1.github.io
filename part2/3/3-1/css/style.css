@@ -1,0 +1,55 @@
+body{
+    width : 100%;
+    background-color : black;
+}
+
+
+.box{
+    width : 100px;
+    height : 100px;
+    margin : 100px auto 0px;
+    border-radius : 20px;
+    background-color :bisque;
+    
+    /*css3 animation property*/
+    animation-name : a;
+    animation-duration : 2s;
+    animation-timing-function : ease;
+    animation-delay : 0s;/*최초 1회만 기다림*/
+    animation-iteration-count : infinite; /*반복횟수*/
+    animation-direction : alternate;/*프레임 진행방향 설정*/
+    animation-play-state : running;/*재생 or 정지*/
+    
+    animation : a 2s ease 0s infinite alternate running;
+}
+
+.box:hover{
+    animation-play-state : paused;
+}
+
+@keyframes a{
+    from{
+        transform : translate(0px,0px);
+        opacity : 0;
+    }
+    to{
+        transform : translate(200px,0px);
+        opacity : 1;
+    }
+}
+
+
+
+.box2{
+    width : 100px;
+    height : 100px;
+    margin : 100px auto; 
+    background : bisque;
+    border-radius : 20px;
+    
+    animation-name : a;
+    animation-duration : 2s;
+    animation-delay : 1s;
+    animation-timing-function : ease;
+    animation-fill-mode : forwards;
+}

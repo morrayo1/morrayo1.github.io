@@ -1,0 +1,18 @@
+h1{color : crimson;}
+h2{color : #555;}
+li{list-style : none;}
+
+.react{text-align : center; border : 3px solid orangered; border-radius : 10px; width : 80%; margin : 30px auto; transition : all .7s ease 1s;}
+.react h1{transition : all .7s ease;}
+.react h2{transition : all .7s ease;}
+
+.react:hover{background-color : #555; border-color : darkorange;}
+.react:hover h1{color : orange;}
+.react:hover h2{color : white;}
+
+
+.nemo li{width : 100px; height : 100px; background-color : #ccc; margin : 20px auto;}
+
+.nemo .red{background : red;}
+.nemo .blue{background : blue;}
+.nemo .green{background : green;}

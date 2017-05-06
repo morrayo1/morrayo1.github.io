@@ -1,0 +1,16 @@
+*{margin : 0; padding : 0;}
+
+.slider{width : 800px; margin : 50px auto;}
+
+body{background : #777;}
+.box{width : 500px; height : 300px; }
+.box1{background-color : cornflowerblue;}
+.box2{background-color :darkorchid;}
+.box3{background-color :darkseagreen;}
+
+.item{width : 300px; margin : 0 auto; line-height : 300px;}
+.item p{width : 60px; height : 60px;color : #fff; font-size : 40px;  float : left; text-align: center; margin : 0 20px;}
+
+/*제이쿼리 기능을 위한 스타일*/
+
+.item p{position : relative; top : -100px; opacity : 0;}

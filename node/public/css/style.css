@@ -1,0 +1,10 @@
+body{background-color :#ddd;}
+li{list-style : none;}
+
+.nemo{text-align : center; line-height : 100px; color : #fff;}
+.nemo li{width : 100px; height : 100px; margin : 30px;}
+
+
+.red{background-color : orangered;}
+.blue{background-color : skyblue;}
+.green{background-color : mediumseagreen;}

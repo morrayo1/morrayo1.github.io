@@ -1,0 +1,59 @@
+body{
+    background-color : darkblue;
+}
+
+
+.responsive{
+    color : #fff;
+    font-size : 40px;
+}
+
+
+/*반응형 만들기
+
+    css media query(보는 디바이스에 따라 다른 스타일을 적용해 주는 기능)
+
+*/
+
+/*프린터*/
+/*@media print{
+    .responsive{font-size : 10px;}
+}*/
+
+/*작은 데스크탑*/
+/*@media screen and (max-width : 960px){
+    body{background-color : cornflowerblue;}
+}*/
+
+/*타블렛*/
+/*@media screen and (max-width : 768px){
+    body{background-color :aquamarine;}
+}*/
+
+/*모바일*/
+/*@media screen and (max-width : 480px){
+    body{background-color :bisque;}
+}*/
+
+
+/*구역 지정
+@media screen and (min-width : 768px) and (max-width : 960px){
+    body{background-color : cornflowerblue;}
+}
+
+@media screen and (min-width : 480px) and (max-width : 767px){
+    body{background-color :aquamarine;}
+}
+
+@media screen and (min-width : 0px) and (max-width : 479px){
+    body{background-color :bisque;}
+}*/
+
+/*가로세로
+@media screen and (orientation : portrait){
+    body{background-color :darkgoldenrod;}
+}
+
+@media screen and (orientation : landscape){
+    body{background-color :yellowgreen;}
+}*/

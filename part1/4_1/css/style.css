@@ -1,0 +1,89 @@
+.backgnd{
+    margin : 0px;
+    background-color: beige;
+}
+
+*{margin : 0px; padding: 0px;}
+header, nav{display: block;}
+
+/*CSS를 작성할 때 처음 해줘야할 것
+
+    초기화
+1.태그들이 가지고 있는 고유의 스타일 속성들을 맞춰서 사용
+2.브라우저들 마다 다르게 보이거나 속성이 적용이 안될 경우가 있기 때문에 초기화 필요
+*/
+
+
+
+/*네비게이션*/
+header{
+    text-align: center;
+    font-size : 30px;
+    margin : 50px 0 20px;
+}
+
+nav{
+    height : 40px; 
+    background-color :dodgerblue;
+    width : 960px;
+    margin : 0 auto;
+}
+
+ul li{
+    list-style: none;
+    height : 40px;
+    text-align: center;
+    line-height: 40px;
+    float : left;
+    padding : 0px 20px;
+    border : 1px solid gray;
+    position : relative;
+}
+
+
+
+/*css를 재정의
+    css를 작성하지 않을 때의 값이 어떤 값이 default 인지 알아야 한다.
+*/
+ul li ul{
+    position : absolute;
+    left : 0px;
+    top :100%;
+    /*visibility: hidden;   visibility : 화면상에 존재하지 않지만, 실제 공간은 그대로 유지*/
+    display: none;         /*display : 화면상에도 존재하지 않고, 실제공간도 없어진다.*/
+}
+
+ul li ul li{ 
+    float : none;
+    background-color: darkcyan;
+    height : 40px;
+    
+}
+
+
+/*css에서 마우스를 감지하는 기능
+
+active
+target
+focus
+hover   :마우스를 올렸을때 기능(모바일에서 사용 불가능) -> 대상을 설정해야함
+
+> 선택자 : 바로 밑의 자식 선택자
+*/
+
+ul li:hover ul{
+    display : block;
+}
+
+
+/*css 효율적인 방법
+
+    1.id나 class를 쓸 때 태그를 지정하지 않는다.
+
+    2.유니버셜 선택자는 ㄴㄴ.
+
+    3.상속의 개념을 활용 ㅇㅇ.
+
+    4.밑자식 선택자 권장 ㄴㄴ.
+
+*/

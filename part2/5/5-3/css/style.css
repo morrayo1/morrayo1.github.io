@@ -1,0 +1,38 @@
+
+
+
+
+.header{
+    background : url(../images/bg.jpg) center;
+    background-size : cover;
+    height : 160px;
+    border-bottom : 1px solid #ccc;
+}
+
+.profile{
+    width : 80px;
+    height : 80px;
+    margin : 0 auto;
+    transform : translateY(100px);
+    border : 2px solid #fff;
+}
+
+
+
+.info h1{    
+    font-size: 18px;
+    text-align: center;
+    margin-top : 50px;
+}
+
+.info p{
+    font-size: 12px;
+    margin :10px 0;
+    text-align: center;
+    padding : 0 50px;
+    line-height: 20px;
+}
+
+.info p:nth-child(2){
+    font-weight: bold;
+}

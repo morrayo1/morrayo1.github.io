@@ -1,0 +1,17 @@
+*{margin : 0; padding : 0;}
+li{list-style : none;}
+body{background : #777;}
+
+
+.container{width : 1050px; margin : 20px auto;}
+
+.nav{overflow : hidden;}
+
+.filter{float : left;}
+.filter li{ float : left; width : 80px; line-height : 40px; background-color : #8db7de; text-align : center; margin-left : 10px; color : #fff;}
+.filter li input{margin-right : 10px;}
+.filter li label{display : block;}
+
+.content{margin : 15px 0; position : relative;}
+.content .card{position : absolute; width : 200px; height : 100px; background-color : #7bb383; margin : 50px top : 0; left : 0; text-align : center; line-height : 100px; color : #fff;
+transition : all 0.3s ease;}

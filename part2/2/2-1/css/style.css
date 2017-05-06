@@ -1,0 +1,30 @@
+/*변형 css3*/
+.con{
+    width : 100%;
+}
+.box{
+    width : 100px;
+    height : 100px;
+    background : green;
+    margin : 200px auto;
+    transform : rotate(45deg) scale(1.5) translate(50px, 50px);
+    transform : none;
+    
+    /*transition
+    해당 태그가 바뀌는 과정을 눈으로 보여주는 기능(애니매이션)
+    */
+    transition-property:background border;
+    transition-duration: 10s;
+    transition-timing-function :ease;
+    transition-delay: 0s;
+    
+    transition : all 2s ease 1s;
+    transition : background 3s linear 2s, border 2s ease 6s;
+}
+
+.box:hover{
+    border-radius: 10px;
+    background: blue;
+}
+
+

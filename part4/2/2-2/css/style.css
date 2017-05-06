@@ -1,0 +1,37 @@
+*{margin : 0;padding : 0;}
+li{list-style : none;}
+body{background: url(../images/bg.jpg); background-size : cover;}
+.container{
+    width : 1000px;
+    height : 600px;
+    background : rgba(255,255,255,.4);
+    position : absolute;
+    top : 50%;
+    left : 50%;
+    transform : translate(-50%,-50%);
+}
+
+.card{width : 960px; margin : 20px auto;}
+.card li{
+    float : left;
+    width : 140px;
+    height : 192px;
+    margin : 0 10px;
+    position : relative;
+    top :20px;
+}
+.card li.yellow{background-image: url(../images/image_01.png);}
+.card li.red{background-image: url(../images/image_02.png);}
+.card li.black{background-image: url(../images/image_03.png);}
+.card li.pink{background-image: url(../images/image_04.png);}
+.card li.violet{background-image: url(../images/image_05.png);}
+.card li.prussian{background-image: url(../images/image_06.png);}
+
+.info{width : 960px; margin : 0px auto;}
+.button{}
+.button a{width : 30px; height :80px; display :inline-block;background-image :url(../images/arrow.png);
+cursor : pointer; margin : 30px auto;}
+.button a.next{ background-position : right top;}
+.button a:hover{background-position-y : bottom;}
+.name{font-size : 40px; font-family: impact; color : #2dbdef;}
+.name span{color : #e46524;}

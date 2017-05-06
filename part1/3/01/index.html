@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="generator" content="brackets" />
+    <meta name="author" content="제작자" />
+    <meta name="keywords" content="키워드" />
+    <meta name="description" content="설명" />
+    <title>네번째 수업</title>
+</head>
+<body>
+    <!-- html5 canvas & svg, webrtc(화상) -->
+    
+    <!-- 시맨틱 구조 
+            레이아웃을 만들 때 의미가 있는 구역들로 설정해 주는 거 -->
+    
+    <div id="header"></div>
+    <div id="contents"></div>
+    <div id="footer"></div>
+    
+    <!-- 시맨틱 태그 -->
+    <header></header>
+    <footer></footer>
+    <nav></nav> <!-- 메뉴, 네이게이션 -->
+    <section></section> <!-- 큰 구역을 나눔 ex) 안방, 부엌 -->
+    <article></article> <!-- 정보들을 담음 컴포넌트 단위 ex) 싱크대, 냉장고 -->
+    <aside></aside> <!-- 광고, 사이드적인 내용들 -->
+    
+    <header>
+        <nav></nav>
+    </header>
+    <section id="news">
+        <article class="국민일보">
+            <div></div>
+        </article>
+        <article class="연합뉴스">
+            <div></div>
+        </article>
+    </section>
+    <aside>
+        <ul>
+            <li></li>
+        </ul>
+    </aside>
+    <footer></footer>
+    
+    <!-- 문제점 : ie( 익스플로러 낮은버전 ) 태그를 인식하지 못 함. 9버전 이후 
+         해결방법 : 자바스크립트를 이용해서 마치 태그가 있는 거 처럼 인식 시킨다
+         문제점 : 브라우저에서 태그는 인식을 하되 display를 인식하지 못한다
+         해결방법 : css로 미리 태그의 display를 설정해 준다 
+            웹표준이 지켜진 브라우저 ie 10 부터 -->
+    
+    <!-- 이미지 구역 -->
+    <figure>
+        <img src="" />
+        <figcaption>이미지의 설명</figcaption>
+    </figure>
+    
+    <!-- 구역을 나누고 역할 분담 -->
+    
+    <!-- 기능이 추가된 태그들 -->
+    <!-- 입력 양식 태그 -->
+    
+    <input type="text" placeholder="아이디 입력해라" />
+    <input type="password" placeholder="비밀번호도 입력해라" />
+    
+    <label><input type="checkbox" />컴퓨러</label>
+    <input type="checkbox" />캐메라
+    
+    <label><input type="radio" name="sung" /> 남자</label>
+    <input type="radio" name="sung" /> 여자
+    
+    <select>
+        <option disabled="disabled" selected>선택</option>
+        <option>남자</option>
+        <option>여자</option>
+    </select>
+    
+    <textarea cols="100" rows="20" ></textarea>
+    
+    <!-- html5 기능 추가 -->
+    <input type="date" />
+    <input type="time" />
+    <input type="color" />
+    <input type="number" step="0.027" min="10" max="500" />
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

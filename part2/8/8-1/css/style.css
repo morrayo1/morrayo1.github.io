@@ -1,0 +1,75 @@
+*{margin : 0; padding :0;}
+img{vertical-align : top;}
+    
+    
+    /*부트스트랩을 사용하지 않고 반응형 구현하기
+
+.wrapper{
+    margin : 20px auto;
+    padding : 0 40px;
+    box-sizing : border-box;
+}  
+
+
+.shop{
+    float : left;
+    padding : 0 15px;
+    margin-bottom : 10px;
+    box-sizing : border-box;
+}
+
+.shop:hover{
+    background-color : skyblue;
+    
+}
+
+.inner img{
+    width : 100%;
+}
+
+
+
+
+@media screen and (min-width :768x){
+    .wrapper{
+        width : 750px;
+    }
+    .shop{
+        width : 50%;
+    }
+}
+
+@media screen and (min-width :992px){
+    .wrapper{
+        width : 970px;
+    }
+    .shop{
+        width : 33.33%;
+    }
+}
+
+@media screen and (min-width :1200px){
+    .wrapper{
+        width : 1170px;
+    }
+    .shop{
+        width : 25%;
+    }
+}*/
+
+
+
+/*부트스트랩을 활용한 반응형 레이아웃
+.shop{
+    margin-bottom : 15px;
+}
+.inner img{
+    width : 100%;
+}*/
+
+
+
+
+
+
+

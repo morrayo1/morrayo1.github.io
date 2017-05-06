@@ -1,0 +1,108 @@
+body{overflow : hidden;}
+
+.icon{
+    /*중앙정렬-중심점을 가운데로 옮기고 해당 중심점을 기준으로 태그를 넓이&높이의 절반만큼 이동시킨다*/
+    width : 128px;
+    height : 128px;
+    position : absolute;
+    top : 50%;
+    left : 50%;
+    transform : translate(-50%,-50%);
+    opacity:0;
+    
+    /*animation*/
+    
+    animation : icon 3s linear 1s;
+}
+
+@keyframes icon{
+    0%{opacity:1;}
+    100%{opacity:1;}
+}
+
+
+body{
+    animation : background 3s linear 5s;
+    animation-fill-mode : forwards;
+}
+
+@keyframes background{
+    100%{background : black;}
+}
+
+.title{
+    color : #fff;
+    text-align : center;
+    margin : 50px 0 15px;
+    font-size : 24px;
+    font-weight : bold;
+    opacity:0;
+    
+    animation : title 1s ease 8s;
+    animation-fill-mode : forwards;
+}
+
+.text{
+    text-align : center;
+    color : #6df;
+    opacity:0;
+    
+    animation : text 1s ease 9s;
+    animation-fill-mode : forwards;
+}
+
+.phone{
+    text-align : center;
+    margin-top : 30px;
+    opacity:0;
+    transform : scale(0.5);
+    
+    animation : phone 3s linear 11s infinite alternate;
+    animation-fill-mode : forwards;
+}
+
+
+/*animation*/
+
+@keyframes title{
+    from{
+        transform : translate(0px,-100px);
+    }
+    to{
+        transform : translate(0px,0px);
+        opacity : 1;
+    }
+}
+
+@keyframes text{
+    from{
+        transform : translate(-200px,0px);
+    }
+    to{
+        transform : translate(0px,0px);
+        opacity : 1;
+    }
+}
+
+
+@keyframes phone{
+    0%{transform : translate(0px,0px) rotate(0deg)scale(0.3);
+        opacity : 1;}
+    12.5%{transform : translate(-212.1px,29.3px) rotate(45deg)scale(0.3);}
+    
+    25%{transform : translate(-300px,100px) rotate(90deg)scale(0.3);}
+    
+    37.5%{transform : translate(-212.1px,170.7px) rotate(135deg)scale(0.3);}
+    
+    50%{transform : translate(0px,200px) rotate(180deg)scale(0.3);}
+    
+    62.5%{transform : translate(212.1px,170.7px) rotate(225deg)scale(0.3);}
+    
+    75%{transform : translate(300px,100px) rotate(270deg)scale(0.3);}
+    
+    87.5%{transform : translate(212.1px,29.3px) rotate(315deg)scale(0.3);}
+    
+    100%{transform : translate(0px,0px) scale(0.3); opacity : 1;}
+}
+
+

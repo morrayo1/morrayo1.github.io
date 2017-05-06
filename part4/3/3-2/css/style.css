@@ -1,0 +1,87 @@
+*{margin : 0; padding : 0;}
+li{list-style : none;}
+a{text-decoration : none;}
+
+body{font-family : arial;}
+
+
+/*header*/
+header{height : 200px;text-align : center;}
+
+nav{
+    
+    float : left;
+    background-color : rgba(0,0,0,0.8);
+    height : 60px;
+    line-height : 60px;width : 100%;
+}
+nav ul{
+    margin : 0 auto;
+    width : 800px;
+}
+nav li{
+    float : left;
+    width : 160px;
+}
+nav a{
+    color : #fff;
+    display : block;
+    text-align : center;
+}
+.top{
+    color : #fff;
+    float :right;
+    padding : 0 20px;
+    background-color :darkred;
+    position : relative;
+}
+
+section{
+    height : 1000px;
+    background-size : cover;
+    background-position : center;
+   /* background-attachment: fixed;*/
+}
+
+#section01{background-image : url(../images/image01.jpg);margin-top : 60px;}
+#section02{background-image : url(../images/image02.jpg);}
+#section03{background-image : url(../images/image03.jpg);}
+#section04{background-image : url(../images/image04.jpg);}
+#section05{background-image : url(../images/image05.jpg);}
+
+footer{height : 500px;text-align : center;padding : 50px 0;}
+
+
+
+/*자바스크립트 이벤트를 통해 정의될 기능에 대한 스타일*/
+
+nav.fixed{
+    position : fixed;
+    top : 0;
+    width : 100%;
+}
+
+li.position{
+    background-color : rgba(90,160,240,0.7);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

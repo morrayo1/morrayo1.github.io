@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <meta charset="utf-8" />
+        <meta name="generator" content="brackets"/>
+        <meta name="author" content="cyanosj128"/> 
+        <meta name="keywords" content="키워드"/> 
+        <meta name="description" content="설명"/>
+        <title>으으아아아아ㅏ아아ㅏ아아</title>
+    </head>
+    <body style="background : #777; margin : 0px;">
+        
+        
+       <!--태그의 성질(display)
+        태그들은 기본적으로 보이는 방식의 성질을 가지고있다.
+        
+        브라우저가 기본적으로 제공하는 css:
+        1.block
+            넓이와 높이를 설정할 수 있다.
+            넓이는 자동으로 화면의 전체넓이만큼 늘어난다.
+            자동 줄바꿈된다.
+            inline 태그 안에 넣지 않는다.(권장하지 않음-문법상 오류)
+            남은 공간을 여백으로 채움
+            ex)div,hn
+
+        2.inline
+            넓이와 높이가 없다(설정 할 수도 없다.)
+            넓이와 높이는 안쪽의 컨텐츠의 영역만큼 잡힌다.
+            css로 넓이, 높이, 여백등을 제대로 활용 할 수 없다.
+            ex)a,span
+
+        3.inline-block
+            넓이가 컨텐츠의 영역만큼만 잡힘
+            css를 통해서 넓이, 높이, 여백 등을 자유롭게 변경 할 수 있다.
+            인라인 계열의 태그(인라인블록도 결국엔 인라인)
+            ex)img,video,input
+
+        -->
+   
+        
+        <a style="background:red; width : 100px; height : 100px; display : inline-block; text-align : center;">인라인태그</a>
+        <a style="background:#D072F5; width : 100px; height : 100px; display : inline-block; text-align : center;">인라인태그</a>
+        
+        <div style="background:#926AEF; width : 150px; height : 30px; text-align : center;">블럭태그</div>
+        <div style="background:#6CF5A8; width : 150px; height : 30px; text-align : center;">블럭태그</div>
+        
+        <!-- css 기초문법
+        
+        Cascading Stlye Sheet
+
+        -->
+        <style>
+        
+            /*
+            css에서 가장 중요한 것=선택자
+            선택자{스타일1;스타일2;}
+            선택자는 다수의 태그가 될 수 있다.
+            */
+            div{
+                color : red;
+                /*16진수 컬러코드*/
+                color : #ffffff;
+                /*rgb 0~255*/
+                color : rgb(0,255,255);
+                /*h 0~360 s 0%~100% l 0%~100%*/
+                color : hsl(30,50%,50%);
+            }
+            
+            div.box{
+                /*태그의 박스모델*/
+                width : 200px;
+                height : 200px;
+                background-color:forestgreen;
+                padding-left : 50px;
+                margin-left : 50px;
+                border : 10px solid black;
+            }
+        
+            p#attr{
+                width : 300px;
+                height : 300px;
+                background-color : darkcyan;
+                margin : 50px auto 50px;
+                border : 5px dotted cornflowerblue;
+                font-size : 20px;
+                font-weight : bold;
+                font-style : italic;
+                font-family :sans-serif;
+                line-height : 300px;
+                text-align : center;
+                
+                font : 
+            }
+            
+        </style>
+        
+        <div>css 기초문법</div>
+        <div class="box">박스모델구조</div>
+        <p id="attr">css의 속성을 쓰는 방법</p>
+        
+    </body>
+</html>

@@ -1,0 +1,15 @@
+.item{
+	width : 100px;
+	height : 100px;
+	background-color : yellowgreen;
+	margin : 20px;
+	
+}
+
+
+.add{
+	background-color : red;
+	transform : rotateY(360deg);
+	transform-origin : right;
+	transition : all 2s ease;
+}

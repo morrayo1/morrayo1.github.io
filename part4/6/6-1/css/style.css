@@ -1,0 +1,22 @@
+*{margin : 0; padding : 0;}
+li{list-style : none;}
+body{background-color : #21066B; overflow : hidden;}
+
+h1{text-align : center; color : #fff; font-size : 100px; margin-top 60px; line-height : 300px;}
+
+.gnb{width : 1100px; margin : 50px auto;}
+.gnb li{width : 200px; margin : 0 10px; float : left;}
+.gnb h2{width : 100px; margin : 0 auto; padding : 10px; background-color : #000; color : #fff; text-align : center; font-size : 16px; border-radius : 10px; position : relative;}
+
+.gnb h2::before{position : absolute; content : ''; display : block;
+/*화살표 만들기*/
+    width : 0; height : 0; border : 10px solid transparent; border-bottom-color : #000; 
+    top : -20px; left : 0; right : 0; margin : 0 auto;}
+
+/*동작을 위한 준비과정*/
+.gnb li{position : relative;}
+.gnb li:nth-child(odd){top : -1000px; left : 1000px;}
+.gnb li:nth-child(even){top : 1000px; left : 1000px;}
+.gnb li.color{background-color : rgba(255,255,255,0.8); border-radius : 20px;}
+.gnb h2{top : 20px; opacity : 0;}
+.gnb h2.name{top : 0; opacity : 1;}

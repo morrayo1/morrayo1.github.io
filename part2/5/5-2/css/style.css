@@ -1,0 +1,92 @@
+*{margin : 0px; padding : 0px;}
+
+a{ text-decoration : none;}
+
+img{ vertical-align : top;}
+
+li{list-style : none;}
+
+
+/*common*/
+.container{
+    margin : 20px auto 0;
+}
+
+h1{color : yellowgreen; padding : 20px;}
+    
+header{
+    background : url(../images/bg.png);
+    background-position: center;
+}
+
+
+.menu{
+    background-color :coral;
+}
+
+.menu ul{overflow : hidden;}
+
+.menu ul li{float :left;}
+
+.menu ul li a{
+    display : block;
+    font-size : 14px;
+    text-align : center;
+    height : 60px;
+    color : #fff;
+}
+
+section{float:left; width : 760px; }
+section p{padding :20px 10px; line-height : 30px;}
+aside{float :right; width : 200px; background-color : #999; height : 560px;}
+aside img{ float : left;}
+
+
+
+footer{
+    clear : both;
+    background-color : cornflowerblue;
+    height : 70px;
+    line-height : 70px;
+    text-align: center;
+}
+
+
+
+
+/*데스크탑*/
+@media screen and (min-width : 1024px){
+    .container{width : 960px;}
+    header{height : 280px;}
+    h1{font-size : 40px;}
+    .menu ul li a{line-height: 60px; width : 100px;}
+    
+}
+
+
+/*태블릿*/
+@media screen and (min-width : 600px) and (max-width : 1023px){
+    .container{width : 600px;}
+    header{height : 200px;}
+    h1{font-size : 30px;}
+    .menu ul li a{line-height: 60px; width : 100px;}
+    section{width : 600px;}
+    aside{height :auto; width : 600px; background-color : none;}
+}
+
+
+/*모바일*/
+@media screen and (max-width : 599px){
+    .container{width : 320px;}
+    header{height : 100px;}
+    h1{font-size : 20px;}
+    .menu ul li{float :none;}
+    .menu ul li a{line-height: 30px; width : auto; height : 30px;}
+    section{width : 320px;}
+    aside{height : auto; float:left;}
+    aside img{width : 320px;}
+}
+
+
+
+

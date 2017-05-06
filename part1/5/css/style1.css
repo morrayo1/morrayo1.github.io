@@ -1,0 +1,21 @@
+*{
+    margin : 0px;
+    padding : 0px;
+}
+
+
+
+.container{
+    width : 100%;
+}
+
+
+.top{
+    height : 60px;
+    width : 100px;
+    background-color: darkgoldenrod;
+}
+
+.banner{
+    height : 160px;
+}

@@ -1,0 +1,74 @@
+h1{
+    margin : 100px 0 50px;
+    text-align : center;
+}
+li{
+    list-style : none;
+}
+
+
+
+.ani{
+    width : 920px;
+    margin : 0 auto;
+}
+
+.ani li{
+    width : 200px;
+    height : 200px;
+    margin : 15px;
+    float : left;
+    border-radius : 50%;
+    overflow : hidden;
+}
+
+.ani li img{
+    width : 100%;
+}
+
+
+/*기능 구현을 위한 style*/
+
+h1{
+    animation : title 2s ease;
+}
+
+@keyframes title{
+    0%{transform : translate(0px,-200px);}
+    80%{transform : translate(0px,30px);}
+    100%{transform : translate(0px,0px);}
+}
+
+.ani li{
+    animation : cake 2s ease;
+}
+
+@keyframes cake{
+    0%{
+        transform: scale(0);
+        opacity: 0;
+        border-radius : 0%;
+    }
+    20%{
+        transform: scale(0.5);
+        border-radius : 10%;
+    }
+    40%{
+        transform: scale(0.3);
+        border-radius : 20%;
+    }
+    60%{
+        transform: scale(0.8);
+        border-radius : 30%;
+    }
+    80%{
+        transform: scale(0.5) rotate(0deg);
+        border-radius : 40%;
+    }
+    100%{
+        transform: scale(1) rotate(360deg);
+        border-radius : 50%;
+        opacity: 1;
+    }
+}
+

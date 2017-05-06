@@ -1,0 +1,33 @@
+.box1{
+	width : 400px;
+	height : 400px;
+	background-color : aquamarine;
+}
+
+.box2{
+	width : 300px;
+	height : 300px;
+	background-color :darkcyan;
+}
+
+.inner1{
+	width : 100px;
+	height : 100px;
+	background-color :darkblue;
+}
+.inner2{
+	width : 100px;
+	height : 100px;
+	background-color :darkslateblue;
+}
+.inner3{
+	width : 100px;
+	height : 100px;
+	background-color :darkorchid;
+}
+
+
+
+.color1{
+	background-color :chartreuse;
+}

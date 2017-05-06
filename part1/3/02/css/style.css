@@ -1,0 +1,63 @@
+/*body { background: gray; }*/
+
+
+.box1 /*div.box*/
+{
+    width: 100px; height: 150px; background-color: crimson;
+    float: left;
+}
+
+.box2
+{
+    width: 100px; height: 200px; background-color: palevioletred;
+    float: left;
+}
+
+.box3
+{
+    width: 100px; height: 100px; background-color: pink;
+    float: left;
+}
+
+
+.parent 
+{
+    width: 299px; border: 5px solid black;
+    height: auto;
+    
+    /* height: 200; 
+    overflow: hidden; 플로우 넘친거 숨기장 
+    원래기능 - 영역을 벗어난 컨텐츠를 어떻게 보이게 할건지 정하는 속성
+    응용사용 - 해당 속성을 이용해서 자식들이 float로 인한 높이문제를 해결하기 위해서 사용*/
+}
+
+/* 다 float하면 따로 띄워진거라 부모의 크기를 잡을 수 없다 (float는 부모가 높으를 모를거양) */
+/* float크기를 잡고 싶으면 부모창의 크기를 계산해줘야 한다 */
+/* float순서는 맨처음 태그 순으로 제일 앞쪽으로 간다 (1,2,3 left - 3,2,1 right) */
+
+
+.box1
+{
+    width: 100px; height: 150px; background-color: crimson;
+    float: left;
+}
+
+.box2
+{
+    width: 100px; height: 200px; background-color: palevioletred;
+    float: right;
+}
+
+.box3
+{
+    width: 100px; height: 100px; background-color: pink;
+    margin: 230px auto 0;
+    clear: both; /* 앞에 float 적용된 태그들을 무시 */
+}
+
+
+.parent 
+{
+    width: 400px; border: 5px solid black;
+    overflow: hidden;
+}

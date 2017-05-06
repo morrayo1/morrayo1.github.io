@@ -1,0 +1,120 @@
+*{
+    margin : 0px;
+    padding : 0px;
+}
+
+
+/*Common*/
+.wrapper{ width:1080px; margin : 0 auto;}
+.clearfix::after{content:'';   display : block;    clear:both;}
+
+
+/*Top*/
+.top_wrapper{
+    height : 60px;
+    background-color :aliceblue;
+}
+
+.top{
+    height : 60px;
+    background-color :aliceblue;
+}
+
+.top ul{
+    list-style :none;
+    
+}
+.top_left{
+    float : left;
+}
+.top_right{
+    float : right;
+}
+
+.top ul li{
+    float : left;
+    padding : 0 20px;
+    line-height: 60px;
+    background-color : orange;
+    color : white;
+}
+
+
+
+
+
+
+.banner{
+    height : 160px;
+    background-color :darkseagreen;
+}
+.banner h1{
+    height : 160px;
+    width : 160px;
+    background-color :cornsilk;
+    text-align: center;
+    line-height: 160px;
+}
+
+
+
+
+
+.nav_menu{
+    background-color : firebrick;
+    height : 60px;
+}
+
+.nav_menu li{
+    list-style: none;
+    float :left;
+    height : 60px;
+    line-height : 60px;
+    text-align: center;
+    padding : 0 20px;
+}
+
+
+
+.main{
+}
+
+.visual{
+    height : 300px;
+    background-color :cornflowerblue;
+}
+
+.ban1, .ban2, .ban3{
+    height : 100px;
+    float :left;
+}
+
+.ban1{
+    width : 240px;
+    background-color :darkcyan;
+}
+.ban2{
+    width : 720px;
+    background-color :darkolivegreen;
+}
+.ban3{
+    width : 120px;
+    background-color :forestgreen;
+}
+
+
+
+.poster{}
+
+article{
+    background-color : black;
+}
+
+article div{
+    width : 200px;
+    margin : 8px;
+    height : 200px;
+    background-color : aliceblue;
+    float : left;
+}
+
